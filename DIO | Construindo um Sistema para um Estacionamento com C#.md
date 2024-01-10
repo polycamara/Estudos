@@ -32,7 +32,7 @@ Desafio de construir um sistema para um estacionamento DIO.
     else if (resposta == 2)
     {
         Console.WriteLine("Digite a placa do veículo para retirar: ");
-        string placaRemover = Console.ReadLine(); // Renomeando para 'placaRemover'
+        string placaRemover = Console.ReadLine();
 
         placas.Remove(placaRemover);
 
